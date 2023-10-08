@@ -1,0 +1,34 @@
+
+<html>
+  <head>
+    <title>Select a Game</title>
+    <link rel="shortcut icon" href="img/1.png">
+  </head>
+  <body>
+    <style>
+      #games {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin: 20px;
+      }
+
+    </style>
+    <header style="background-color: grey;" height="70">
+      <a href="" style="color: white;">Games</a>
+    </header>
+    <div id="games">
+      <! -- Game 1 -->
+      <img src="img/sm64.jpeg" width="250" height="200" onclick="window.open('SM64/')" style="cursor: pointer;">
+      <h1 onclick="window.open('SM64/')" style="cursor: pointer;" width="250" id="gamestext">Super Mario 64</h1>
+      <! -- Game 2 -->
+      <img src="img/TIQ.jpeg" width="250" height="200" onclick="window.open('impossiblequiz/')" style="cursor: pointer;">
+      <h1 onclick="window.open('impossiblequiz/')" style="cursor: pointer;" id="gamestext">The Impossible Quiz</h1>
+    </div>
+    <center>
+      <p style="bottom: 0; position: fixed;">I am not responsible for any in school incidents using this site</p>
+      <p style="bottom: 0; right: 0; position: fixed;">©2023 Jamison smith</p>
+    </center>
+    <p></p>
+  </body>
+</html>
